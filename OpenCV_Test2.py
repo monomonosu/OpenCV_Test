@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# Qiita記事参考：https://qiita.com/best_not_best/items/c9497ffb5240622ede01
+# 服装で検証
 
 """hist matching."""
 
 import cv2
 import os
 
-TARGET_FILE = '05.png'
-IMG_DIR = os.path.abspath(os.path.dirname(__file__)) + '/images/'
+TARGET_FILE = '1.jpg'
+IMG_DIR = os.path.abspath(os.path.dirname(__file__)) + '/clothesImages/'
 IMG_SIZE = (200, 200)
 
 target_img_path = IMG_DIR + TARGET_FILE
